@@ -23,6 +23,10 @@ permission of ${data.github||'n/a'} <${data.email||'n/a'}>.`
   } 
 }
 
+const deployedPage = (data)=> {
+  return data.deployed ? `[Link to deployed web page.](${data.deployed})` : ''
+}
+
 function generateMarkdown(data) {
   return `# ${data.title||'n/a'}
 
@@ -30,12 +34,12 @@ function generateMarkdown(data) {
 
 ${data.description||'n/a'}
 
-[Link to deployed web page.](${data.deployed||'#'})
+${deployedPage(data)}
 
 ## User Story
 
 \`\`\`md
-${data.userStory||'n/a'}
+${data.userstory||'n/a'}
 \`\`\`
 
 ## Table of Contents

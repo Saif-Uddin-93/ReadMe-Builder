@@ -21,7 +21,6 @@ n/a
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-- [Contact](#contact)
 
 
 ## Installation
@@ -30,7 +29,7 @@ n/a
 
 ## Usage
 
-Answer the prompted questions to generated the ReadMe.md file
+Answer the prompted questions to generate the ReadMe.md file
 
 ## License
 ### MIT License
@@ -48,15 +47,11 @@ Node.js, Inquirer.js
 
 ## Contributing
 
-undefined
+Feel free to add to this project!
 
 ## Tests
 
 n/a
-
-## Questions
-
-undefined
 
 ## Questions
 I can be contacted via email on, contact@saifuddin.uk

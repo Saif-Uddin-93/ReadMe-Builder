@@ -64,12 +64,12 @@ const promptUser = ()=> {
     {
       type: 'input',
       name: 'description',
-      message: "Please write a short description of your project",
+      message: "Please write a short description of your project:",
     },
     {
       type: 'input',
       name: 'userstory',
-      message: "Please write a short description of the user story",
+      message: "Please write a short description of the user story:",
     },
     {
       type: 'input',
@@ -100,7 +100,7 @@ const promptUser = ()=> {
     {
       type: 'input',
       name: 'credits',
-      message: "List your collaborators, if any, with links to their GitHub profiles.\nIf you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.",
+      message: "List your collaborators, if any, with links to their GitHub profiles.\nIf you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section:",
     },
     {
       type: 'input',
