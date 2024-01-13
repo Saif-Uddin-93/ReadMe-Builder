@@ -84,7 +84,7 @@ const promptUser = ()=> {
     },
     {
       type: 'input',
-      name: 'dependencies',
+      name: 'installation',
       message: "What command should be run to install dependencies?",
     },
     {

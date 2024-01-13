@@ -4,12 +4,12 @@
 
 A tool using Node.js to generate a professional Readme for GitHub projects
 
-[Link to deployed web page.](https://saif-uddin-93.github.io/ReadMe-Builder/)
+
 
 ## User Story
 
 ```md
-n/a
+AS A DEVELOPER that works on prjoects using GitHub, I WANT to be able to quickly produce a ReadMe for my projects, SO I can save time on writing writing the markdown for the readme.
 ```
 
 ## Table of Contents
@@ -25,7 +25,7 @@ n/a
 
 ## Installation
 
-n/a
+npm i package.json
 
 ## Usage
 
@@ -51,7 +51,7 @@ Feel free to add to this project!
 
 ## Tests
 
-n/a
+no tests specified
 
 ## Questions
 I can be contacted via email on, contact@saifuddin.uk

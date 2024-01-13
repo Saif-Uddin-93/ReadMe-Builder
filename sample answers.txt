@@ -2,7 +2,7 @@
 ? What is your email address? contact@saifuddin.uk
 ? What is your project's name? ReadMe-Builder
 ? Please write a short description of your project. A tool using Node.js to generate a professional Readme for GitHub projects
-? Please write a short description of the user story AS A DEVELOPER that works on prjoects using GitHub, I WANT to be able to quickly produce a ReadMe for my projects, SO I can save time on writing writing the markdown for the readme.
+? Please write a short description of the user story AS A DEVELOPER that works on prjoects using GitHub, \nI WANT to be able to quickly produce a ReadMe for my projects, \nSO I can save time on writing writing the markdown for the readme.
 ? What is the link to your deployed application? https://saif-uddin-93.github.io/ReadMe-Builder/
 ? What type of license should your project have? MIT
 ? What command should be run to install dependencies? npm i package.json

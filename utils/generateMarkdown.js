@@ -75,11 +75,11 @@ ${data.contribute || 'n/a'}
 
 ## Tests
 
-${data.tests||'n/a'}
+${data.test||'n/a'}
 
 ## Questions
 I can be contacted via email on, ${data.email||'n/a'}
-GitHub Profile: [@${data.github}](https://github.com/${data.github||'#'})
+GitHub Profile: [@${data.github||'#'}](https://github.com/${data.github||'#'})
 
 ## Badges
 
