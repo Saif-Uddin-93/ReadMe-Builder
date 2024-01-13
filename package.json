@@ -1,0 +1,26 @@
+{
+  "name": "readme_builder",
+  "version": "0.0.1",
+  "description": "build readme files for github projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saif Uddin",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.5.2",
+    "inquirer-autocomplete-standalone": "^0.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saif-Uddin-93/ReadMe-Builder.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "bugs": {
+    "url": "https://github.com/Saif-Uddin-93/ReadMe-Builder/issues"
+  },
+  "homepage": "https://github.com/Saif-Uddin-93/ReadMe-Builder#readme"
+}
