@@ -104,6 +104,21 @@ const promptUser = ()=> {
     },
     {
       type: 'input',
+      name: 'contributing',
+      message: "List your collaborators, if any, with links to their GitHub profiles.\nIf you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.",
+    },
+    {
+      type: 'input',
+      name: 'tests',
+      message: "List your collaborators, if any, with links to their GitHub profiles.\nIf you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.",
+    },
+    {
+      type: 'input',
+      name: 'questions',
+      message: "List your collaborators, if any, with links to their GitHub profiles.\nIf you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.",
+    },
+    {
+      type: 'input',
       name: 'contribute',
       message: "What does the user need to know about contributing to the repo?",
     },

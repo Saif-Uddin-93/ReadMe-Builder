@@ -42,8 +42,11 @@ ${data.userStory||'n/a'}
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
+- [Credits](#credits)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 - [Contact](#contact)
 
 
@@ -55,13 +58,25 @@ ${data.installation||'n/a'}
 
 ${data.usage||'n/a'}
 
+## License
+### ${data.license||'UNLICENSED'} License
+${licenseDescription(data)}
+
 ## Credits
 
 ${data.credits||'n/a'}
 
-## License
-### ${data.license||'UNLICENSED'} License
-${licenseDescription(data)}
+## Contributing
+
+${data.contributing}
+
+## Tests
+
+${data.tests||'n/a'}
+
+## Questions
+
+${data.questions}
 
 ## Contact
 I can be contacted via email on, ${data.email||'n/a'}
