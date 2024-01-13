@@ -1,0 +1,23 @@
+? What is your GitHub username? Saif-Uddin-93
+? What is your email address? contact@saifuddin.uk
+? What is your project's name? ReadMe-Builder
+? Please write a short description of your project A tool using Node.j
+s to generate a professional Readme for GitHub projects
+? Please write a short description of the user story AS A DEVELOPER th
+at works on prjoects using GitHub \nI WANT to be able to quickly produ
+ce a ReadMe for my project
+? What is the link to your deployed application? https://saif-uddin-93
+.github.io/ReadMe-Builder/
+? What type of license should your project have? MIT
+? What command should be run to install dependencies? npm i package.js
+on
+? What command should be run to run tests? no tests specified
+? What does the user need to know about using the repo? Answer the pro
+mpted questions to generated the ReadMe.md file
+? List your collaborators, if any, with links to their GitHub profiles
+.
+If you used any third-party assets that require attribution, list the 
+creators with links to their primary web presence in this section. Nod
+e.js, Inquirer.js
+? What does the user need to know about contributing to the repo? Feel
+ free to add to this project!
