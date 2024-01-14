@@ -1,5 +1,4 @@
-const fs = require('fs');
-const util = require('util');
+const fs = require('fs/promises');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
@@ -111,7 +110,7 @@ const promptUser = ()=> {
 }
 
 
-const writeFileAsync = util.promisify(fs.writeFile);
+//const writeFileAsync = util.promisify(fs.writeFile);
 
 // function to initialize program
 const init = async () => {
@@ -120,7 +119,7 @@ const init = async () => {
 
     const md = generateMarkdown(answers);
 
-    await writeFileAsync('generated readme.md', md);
+    await fs.writeFile('generated readme.md', md);
 
     console.log('Successfully wrote to readme.md');
   } catch (err) {
