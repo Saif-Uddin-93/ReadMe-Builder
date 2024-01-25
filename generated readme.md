@@ -9,7 +9,7 @@ A tool using Node.js to generate a professional Readme for GitHub projects
 ## User Story
 
 ```md
-AS A DEVELOPER that works on prjoects using GitHub, I WANT to be able to quickly produce a ReadMe for my projects, SO I can save time on writing writing the markdown for the readme.
+AS A DEVELOPER that works on prjoects using GitHub, <br>I WANT to be able to quickly produce a ReadMe for my projects, <br>SO I can save time on writing writing the markdown for the readme.
 ```
 
 ## Table of Contents
@@ -25,7 +25,7 @@ AS A DEVELOPER that works on prjoects using GitHub, I WANT to be able to quickly
 
 ## Installation
 
-npm i package.json
+npm i
 
 ## Usage
 
