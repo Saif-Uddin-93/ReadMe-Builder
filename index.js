@@ -59,6 +59,7 @@ const promptUser = ()=> {
       type: 'input',
       name: 'test',
       message: "What command should be run to run tests?",
+      default: "No tests available at this point in time."
     },
     {
       type: 'input',

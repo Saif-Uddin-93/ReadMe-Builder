@@ -2,21 +2,18 @@
 
 ## Description
 
-This project was created to create a weather forecast application. The aim was to able to search for the weather forecast for the current day and following 5 days. The project meets the following criteria:
+This project was created to create an application that generated a professional Readme markdown file based off the input by the user. The aim was to reduce the input required from the user be having the layout pre-filled with the correct markdown syntax and additional information depending on certain options that are selected. The project meets the following criteria:
 
-* The weather forecast for the current day and next 5 days are displayed when entering a city.
-* Any saved searches are loaded if it exists.
-* The country can be specified in the search by including a the country code after the city, seperated by a comma.
-* The searches will be added below the search bar with the country code to specify to the user which country the city is in.
-* The search item can be removed by clicking on the <b>X</b> on the end of the search item.
-* All saved data is stored locally.
+* The application is able to produce a readme file called "generated readme.md" which is stored in the folder where the application is run from.
+* The application has the option to choose different license options with T&C's pre-filled depending on the selected option.
+* The Inquirer module is used to accept the user's input in the CLI.
+* 
 
 The main things I've learned from this project are:
 
-* Gained understading with JS objects such as Date and how to convert Unix timestamps to readable dates.
-* Pratice with writing more readable code using functional programming concepts.
+* Gained an understanding of Node.js and how to add and run modules such as Inquirer.
+* Learned how to import scripts and packages.
 
-[Link to deployed web page.](https://saif-uddin-93.github.io/weather-dashboard/)
 
 ## Table of Contents
 
@@ -29,29 +26,27 @@ The main things I've learned from this project are:
 ## User Story
 
 ```md
-AS AN frequent traveller
-I WANT to check the weather at the destinations I plan to travel to
-SO THAT I can effectively plan and bring appropiate items/clothing suitable for the weather.
+AS A web developer
+I WANT accurrately produce professional Readme files
+SO THAT I can be sure to cover all aspects needed for my projects.
 ```
 
 ## Installation
 
-For this project, the developer tool I'll be using is VS Code. A lightweight IDE that allows working in JavaScript. It also allows the use of Extensions which can add extra functionality to the tool to help with debugging and making code more readable. The main extension I'll be using is called, Live Server, by Ritwick Dey. The browser that the web page will be used on is Google Chrome and will work on all Chromium-based web browsers. This project also includes the Bootstrap framework and the OpenWeatherAPI.
+For this project, the developer tool I'll be using is VS Code. A lightweight IDE that allows working in JavaScript. It also allows the use of Extensions which can add extra functionality to the tool to help with debugging and making code more readable. The main tool I'll be using is called, Node. Node allows the use of packages such as Inquirer and the ability to run JavaScript without the use of a browser.
 
 ## Usage
 
-The weather app can be utilised by entering a city name or a city name and a country code by seprating them with a comma. For entering the correct state/country codes, please refer to the [ISO 3166](https://www.iso.org/obp/ui/#search) standarization.
-
-The forecasts in 5-day forecast section are for 12PM on their respective days.
+Once the application is run, the user will be prompted with a series of questions that are relevant to the different sections of the Readme. The answers the user inputs will be used to generate the final Readme file.
 
 Screenshot of the final application:
-![Screenshot of final application](./assets/images/screenshot.png)
+![Screenshot of final application](./images/screenshot.png)
 
-Searches are saved on the browsers local storage so the user can load the results again to get search results from the time when they made that search and can be deleted by clearing cache or clicking on the <b>X</b> which will also remove the saved result from the local storage.
+Searches are saved on the browsers local storage so the user can load the results again to get search results from the time when they made that search and can be deleted by clearing the cache or clicking on the <b>X</b> which will also remove the saved result from the local storage.
 
 ## Credits
 
-Assets in this projects belong to the edX organisers. All JavaScript in this project was written by myself.
+Assets in this project belong to the edX organisers. All JavaScript in this project was written by myself.
 
 ## License
 ### MIT License
