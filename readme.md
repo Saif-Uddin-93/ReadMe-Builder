@@ -42,7 +42,7 @@ Once the application is run, the user will be prompted with a series of question
 Screenshot of the final application:
 ![Screenshot of final application](./images/screenshot.png)
 
-Searches are saved on the browsers local storage so the user can load the results again to get search results from the time when they made that search and can be deleted by clearing the cache or clicking on the <b>X</b> which will also remove the saved result from the local storage.
+The generated readme files are stored in the folder where the application is run.
 
 ## Credits
 
