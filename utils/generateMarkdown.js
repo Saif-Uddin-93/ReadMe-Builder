@@ -32,7 +32,9 @@ ${data.userstory||'n/a'}
 
 ## Installation
 
+\`\`\`md
 ${data.installation||'n/a'}
+\`\`\`
 
 ## Usage
 
