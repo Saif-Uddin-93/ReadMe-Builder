@@ -42,6 +42,8 @@ Once the application is run, the user will be prompted with a series of question
 Screenshot of the final application:
 ![Screenshot of final application](./images/screenshot.png)
 
+[Link to video demo of application](https://www.youtube.com/watch?v=HEBn0g1VL4E)
+
 The generated readme files are stored in the folder where the application is run.
 
 ## Credits
